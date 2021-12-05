@@ -6,12 +6,22 @@ authors = ["Vladilav Goncharenko <vladislav.goncharenko@phystech.edu>"]
 
 [tool.poetry.dependencies]
 python = "~3.9"
-opencv-python-headless = "^4.5.4"
-Pillow = "^8.4.0"
-scikit-image = "^0.19.0"
+
+# General ML stuff
 numpy = "^1.21.4"
 matplotlib = "^3.5.0"
 scikit-learn = "^1.0.1"
+
+# Computer Vision libraries
+opencv-python-headless = "^4.5.4"
+Pillow-SIMD = "^7.0.0"
+scikit-image = "^0.19.0"
+
+# Deep Learning stuff
+torch = "~1.10"
+torchvision = "^0.11.1"
+torchinfo = "^1.5.4"
+catalyst = "^21.11"
 
 [tool.poetry.dev-dependencies]
 pre-commit = "^2.16.0"
