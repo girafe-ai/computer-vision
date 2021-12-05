@@ -18,12 +18,12 @@ pre-commit = "^2.16.0"
 ipykernel = "^6.6.0"
 
 [tool.black]
-line-length = 90
-target-version = ["py38"]
+line-length = 100
+target-version = ["py39"]
 
 [tool.isort]
 profile = "black"
-line_length = 90
+line_length = 100
 lines_after_imports = 2
 
 [tool.nbqa.mutate]
